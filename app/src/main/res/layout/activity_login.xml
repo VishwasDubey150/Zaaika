@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="#F7941D">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="280dp"
+        android:rotationX="-21"
+        android:src="@drawable/log"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></ImageView>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:elevation="20dp"
+        android:fontFamily="@font/lilita_one"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:rotationX="4"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"></EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/et_bg"
+        android:elevation="20dp"
+        android:fontFamily="@font/lilita_one"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:rotationX="4"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"></EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/login"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/lilita_one"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="20dp"
+        android:rotationX="4"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"></androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        android:text="Don't Have Account?"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/lilita_one"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
