@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "365585924533",
+    "project_id": "zaaika-40e3f",
+    "storage_bucket": "zaaika-40e3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365585924533:android:c73485b477ea98f98419fc",
+        "android_client_info": {
+          "package_name": "com.example.zaaika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365585924533-ulvrc1dk3e2ejtm7viss1409b4kitgm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zaaika",
+            "certificate_hash": "3c7e9099f1a9e194d303779875851d9fa6e93e96"
+          }
+        },
+        {
+          "client_id": "365585924533-tm8ksiev664ugc1u0bdahrr9t9tqg423.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8rP47DoLvE6L238gWfl2TRMDADTtLAqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365585924533-tm8ksiev664ugc1u0bdahrr9t9tqg423.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
